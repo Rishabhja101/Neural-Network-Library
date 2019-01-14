@@ -1,8 +1,8 @@
-class Neuron {
+class NeuralNetwork {
   float[][] mat;
   
   // 3 by 1
-  Neuron(int x, int y){
+  NeuralNetwork(int x, int y){
     randomSeed(0);
     this.mat = new float[3][];
     for (int i = 0; i < x; i++){
